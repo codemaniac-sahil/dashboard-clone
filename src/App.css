@@ -69,11 +69,14 @@
   align-items: center;
 }
 .content{
+   display: flex;
+   flex-direction: column;
   margin-top: 10px;
-  background-color: black;
+
   position: absolute;
   top: 84px;
   margin-left: 10%;
+
 }
 
 .card1-progress-bar{
@@ -110,17 +113,14 @@
   justify-content: center;
   gap: 1.3em;
 }
-.content{
-  display: flex;
-
-  
-}
+/*  */
 .upper-part{
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content:center;
   gap: 9em;
+  background-color: black;
 }
 .card1{
   display: flex;
@@ -148,4 +148,55 @@
   /* height: 50%; */
   margin-top: 23px;
 
+}
+.lower-section{
+  background-color: black;
+  margin-top: 2px;
+  display: flex;
+  gap: 20%;
+  
+}
+.risk-section{
+  display: flex;
+  flex-direction: column;
+}
+.risks{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  font-size: 1.25em;
+}
+.section-21-content{
+  display: flex;
+  flex-direction: column;
+}
+.table-content{
+  display: flex;
+  justify-content: space-between;
+  gap: 4em;
+}
+.section-21-button{
+  display: flex;
+  justify-content: space-between;
+}
+#btn{
+  border: 1px solid white;
+  padding: 5px 10px;
+}
+.section-21{
+  display: flex;
+  gap: 1.2em;
+}
+.section-2{
+  display: flex;
+  flex-direction: column;
+}
+.arrow{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  /* border: 1px solid white; */
+  /* width: 50%; */
 }
